@@ -16,7 +16,7 @@ const MovieDetail = () => {
     const { title, overview, poster_path, popularity, release_date, vote_average } = movie;
     return (
         <div className="d-flex row justify-content-center align-items-center mt-5">
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="card">
                     <div className="card-img-top">
                         <img src={`https://image.tmdb.org/t/p/w1280/${poster_path}`} className="player-img img-thumbnail " alt="country flag" />

@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Movie = (props) => {
     const { title, poster_path, id } = props.movie;
-
+//col-md-3 col-sm-12 
     return (
-        <div className="col-md-3 col-sm-12 m-3 p-3" style={{ width: '18rem' }}>
+        <div className="col-lg-4 col-md-6 col-sm-12 m-3 p-3" style={{ width: '18rem' }}>
             <div className="card h-100" >
                 <img src={`https://image.tmdb.org/t/p/w1280/${poster_path}`} className="card-img-top" alt="" />
                 <div className="card-body">
